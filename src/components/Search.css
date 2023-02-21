@@ -1,5 +1,5 @@
 .search-control {
-  width: 60%;
+  width: 90%;
   max-width: 43rem;
   padding: 1rem;
   border-radius: 12px;
@@ -12,6 +12,12 @@
   transform: translate(-50%, -50%);
   overflow: auto;
   transition-duration: 1s;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-control {
+    width: 60%;
+  }
 }
 
 .search-control.sticky {
